@@ -5,7 +5,8 @@ it is a sample repo for logging in pythons while using docker
 #### how to run the code
 clone the repo. change directory to python-logs-docker and run the dockerfile
 
-```docker build -t test .
+```
+docker build -t test .
 docker run -v $PWD/myLogs:/app_logs test
 ```
 
